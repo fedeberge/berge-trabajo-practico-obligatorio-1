@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;1,700&display=swap');
+html {
+    /*Variables CSS*/
+    --acento: #E63946;
+    --claro: #D4CED3;
+    --medio: #313131;
+    --medio2: #457B9D;
+    --oscuro: #222529;
+    --negro: #171523;
+    --corte: 12px;
+}
+
+body {
+    background-color: var(--claro);
+    font-family: 'Cantarell', sans-serif;
+}
+
+ span.h2, #bottom span.h4{
+    font-weight: 700 ;
+    font-style: italic;
+}
+
+#main_nav .navbar-brand .bx-sm {
+    font-size: 2em !important;
+}
+#main_nav .navbar-brand .bx-sm,
+#bottom a .bx-sm {
+    position: relative;
+    top: 3px;
+}
+
+.fede-destaque {
+    color: var(--acento);
+    -webkit-text-stroke: 0.25px #fff;
+    font-style: italic;
+    text-shadow: white 0 0 2em;
+}
+.fede-clip {
+    clip-path: polygon(
+            var(--corte) 0,
+            100% 0,
+            calc(100% - var(--corte)) 100%,
+            0 100%
+        );
+}
+
+
+
+.fede-contenedor {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    background: var(--claro);
+    border: 1px solid transparent;
+    color: var(--claro);
+}
+
+.fede-btn {
+    background-color: var(--oscuro);
+    color: var(--claro);
+}
+
+.fede-contenedor:hover {
+    color: var(--acento);
+    background-color: var(--acento);
+}
+
+.fede-contenedor:hover .fede-btn {
+    color: var(--acento);
+}
+
+.fede-contenedor.filter-btn {
+    background-color: var(--negro);
+}
+.fede-contenedor:hover.filter-btn {
+    background-color: var(--claro);
+}
+.fede-contenedor.filter-btn.active {
+    background-color: var(--acento);
+
+}
+.fede-contenedor.active .fede-btn {
+    color: var(--acento);
+}
+
+
+.bg-secondary.servicios-fondo {
+    background: linear-gradient(#222529D0, #222529D0), url("/assets/img/fede-pixeles.jpeg") fixed;
+}
+.fede-anchor {
+    position: relative;
+    top: -80px;
+}
+/*Clases pisadas de bootstrap */
+/*texto*/
+.text-primary {
+    color: var(--acento) !important;
+}
+
+.text-secondary {
+    color: var(--claro) !important;
+}
+
+.text-muted {
+    color: var(--claro) !important;
+}
+
+.text-light {
+    color: var(--claro) !important;
+}
+
+a {
+    color: var(--acento);
+}
+
+a:hover {
+    color: var(--claro)
+}
+
+/*fondo*/
+.bg-dark {
+    background-color: var(--oscuro) !important;
+}
+
+.bg-secondary {
+    background-color: var(--medio) !important;
+}
+
+/*botones*/
+
+.btn-outline-primary {
+    color: var(--acento) !important;
+    border-color: var(--acento) !important;
+}
+
+.btn-primary {
+    color: var(--claro);
+    background-color: var(--oscuro);
+    border-color: var(--medio);
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: var(--negro);
+    border-color: var(--acento);
+    color: #f6f9fe;
+}
+
+.filter-btn.btn-outline-primary {
+    color: var(--negro) !important;
+}
+
+.btn-check:active+.btn-outline-primary,
+.btn-check:checked+.btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active,
+.btn-outline-primary:hover {
+    color: var(--claro) !important;
+    background-color: var(--negro) !important;
+    ;
+    border-color: var(--claro) !important;
+}
+
+.btn-check:focus+.btn-outline-primary,
+.btn-outline-primary:focus {
+    -webkit-box-shadow: 0 0 0 .25rem var(--medio) !important;
+    box-shadow: 0 0 0 .25rem var(--medio) !important;
+}
+
+/*navbar*/
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--claro);
+}
+
+/*-----------------------------*/
+/*reglas pisadas de estilos.css*/
+#main_nav .nav-item .nav-link:hover {
+    color: var(--acento);
+}
+
+#index_banner {
+    background-image: url('./../img/banner-fede-01.jpg') !important;
+}
+
+#index_banner .carousel-control-prev i,
+#index_banner .carousel-control-next i {
+    color: var(--medio) !important;
+}
+
+#index_banner .carousel-indicators li,
+#index_banner .carousel-indicators.active {
+    background-color: var(--acento) !important;
+}
+
+
+.typo-space-line::after,
+.typo-space-line-center::after {
+    border-bottom-color: var(--acento);
+}
+
+
+
+.service-work.card {
+    border-radius: 0 !important;
+}
+
+.service-work .service-work-vertical {
+    background: var(--oscuro);
+    opacity: 1;
+    transition: .5s;
+}
+
+.service-work .service-work-vertical:hover {
+    opacity: 1;
+
+    transition: .5s;
+}
+
+.service-work .service-work-vertical:hover * {
+    color: #000;
+    border-color: #000;
+    transition: .5s;
+}
+
+.card-img-overlay {
+    background: linear-gradient(0deg, rgb(47, 47, 47) 20%, rgba(190, 190, 190, 0.4) 80%);
+}
+
+.card-img-overlay:hover {
+    background: linear-gradient(0deg, rgb(47, 47, 47) 10%, #E63946a0 80%);
+    transition: 0s;
+}
+
+.recent-work.card {
+    border-radius: 0 !important;
+}
+
+.fede-borde-hover-off {
+    border: var(--acento) 0 solid;
+}
+
+.service-work.fede-borde-hover-off{
+    border: var(--negro) .25em solid;
+}
+
+.fede-borde-hover-off:hover {
+    transition: .2s;
+    border-width: .75em;
+}
+
+.service-work.fede-borde-hover-off:hover {
+    border-width: .25em;
+    transition: 0.1s;
+    border-color: var(--acento);
+}
+
+.fede-border-radius-0 {
+    border-radius: 0 !important;
+}
+
+.recent-work .recent-work-vertical {
+    background: #ffffffFF;
+    background: linear-gradient(0deg,
+    #222529 0%,
+     rgba(255, 255, 255, .5) 30%,
+     rgba(255, 255, 255, .5) 70%, 
+     #222529 100%);
+
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.recent-work .recent-work-vertical:hover {
+    background: #22252988;
+
+}
+
+.recent-work .recent-work-vertical:hover * {
+    color: white;
+    transition: .5s;
+}
+
+.list-inline-item .bx {
+    border-radius: 50%;
+    padding: 0.15em;
+    border: 1px solid #ffffff55;
+    margin-right: 0.125em;
+}
+
+.bxl-facebook {
+    background-color: #1877f2;
+}
+
+.bxl-linkedin {
+    background-color: #0a66c2;
+}
+
+.bxl-twitter {
+    background-color: #1da1f2;
+}
+
+.bxl-whatsapp {
+    background-color: #25d366;
+}
+
+.bxl-instagram {
+    background-color: #c32aa3;
+}
+
+.list-inline-item .bx:hover {
+    background-color: var(--acento);
+    border-color: var(--acento);
+    transition: .2s;
+    color: white !important;
+}
+
+html,
+.light-300,
+.regular-400,
+.semi-bold-600 {
+    font-family: 'Cantarell', sans-serif;
+}
+
+.semi-bold-600 {
+    font-weight: 700 !important;
+}
+
+
+@media (max-width: 576px) {
+    #index_banner .carousel-inner {
+        height: 87vh;
+        padding-top: 3em !important;
+    }
+
+    .carousel-item {
+        width: 100% !important;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #index_banner .carousel-inner {
+        padding-top: 5em !important;
+    }
+
+    .carousel-item {
+        width: 80% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    #index_banner .carousel-inner {
+        height: 87vh;
+        padding-top: 10em !important;
+    }
+
+    .carousel-item {
+        width: 70% !important;
+    }
+}

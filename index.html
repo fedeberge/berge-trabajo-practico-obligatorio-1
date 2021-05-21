@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>Berge - CAC TP1</title>
+</head>
+
+<body>
+    <a id="top"></a>
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-md-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand h1 fede-logo" href="#top">
+                <i class='bx bxs-skull bx-sm text-light'></i>
+                <span class="text-light h2">Pixel</span><span class="text-primary h2">punk</span>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+                <div class="flex-fill mx-xl-5 mt-2 mb-2">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-light">
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary fede-clip px-4 fw-bold fs-5" href="#top">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary fede-clip px-4 fw-bold fs-5" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary fede-clip px-4 fw-bold fs-5" href="#trabajos">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary link-falso fede-clip px-4 fw-bold fs-5" href="#top">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary fede-clip px-4 fw-bold fs-5" href="#bottom">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar align-self-center mt-2 d-flex">
+                    <a class="nav-link link-falso" href="#"><i class='bx bx-bell bx-sm pe-none text-primary'></i></a>
+                    <a class="nav-link link-falso" href="#"><i class='bx bx-cog bx-sm pe-none text-primary'></i></a>
+                    <a class="nav-link link-falso" href="#"><i class='bx bx-user-circle bx-sm pe-none text-primary'></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-wrapper bg-dark h.100">
+        <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 regular-400 typo-space-line">
+                                    Diseñamos las <span class="fede-destaque">experiencias</span> que necesites </h1>
+                                <p class="banner-body text-muted py-3 mx-0 px-0">
+                                    Utilizamos nuestra amplia gama de herramientas para lograr crear la solucion que buscás.
+                                </p>
+                                <div class="fede-clip fede-contenedor">
+                                    <a class="btn fede-btn btn-lg px-4 fede-border-radius-0 fede-clip" href="#bottom" role="button">Contacto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------------- Nuevo ITem del Carrousel-->
+
+                    <div class="carousel-item">
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 regular-400 typo-space-line">
+                                    Creación de contenido dinámico y atractivo
+                                </h1>
+                                <p class="banner-body text-muted py-3 mx-0 px-0">
+                                    Nos caracteriza la calidad y velocidad de nuestros trabajos.
+                                </p>
+                                <div class="fede-clip fede-contenedor">
+                                    <a class="btn fede-btn btn-lg px-4 fede-border-radius-0 fede-clip" href="#bottom" role="button">Contacto</a>
+                                </div>
+                                <!--role="button" indica que un boton no apunta a una url sino que hace otra cosa-->
+                            </div>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------------- Nuevo ITem del Carrousel-->
+                    <div class="carousel-item">
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 regular-400 typo-space-line">
+                                    Haremos que tu presencia audiovisual sea inolvidable
+                                </h1>
+                                <p class="banner-body text-muted py-3">
+                                    Combinamos VR, AR y Machine learning para conseguirlo.
+                                </p>
+                                <div class="fede-clip fede-contenedor">
+                                    <a class="btn fede-btn btn-lg px-4 fede-border-radius-0 fede-clip" href="#bottom" role="button">Contacto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------------------------------------Flechas del carrousel   -->
+                <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <i class='bx bx-chevron-left'></i>
+                    <span class="visually-hidden">Ant.</span>
+                </a>
+                <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <i class='bx bx-chevron-right'></i>
+                    <span class="visually-hidden">Prox.</span>
+                </a>
+            </div>
+            <!-- bx-chevron-right y left son las puntas de flecha del carrousel -->
+            <!-- End slider -->
+        </div>
+    </div>
+    <section class="py-5 mb-5">
+        <a id="servicios" class="fede-anchor"></a>
+        <div class="container">
+            <div class="container-fluid pb-3">
+                <div class="row">
+                    <h2 class="h2 text-center col-12 py-5 semi-bold-600">Servicios</h2>
+                    <div class="service-header col-2 col-lg-12 text-end text-lg-center light-300">
+                        <i class='bx bxs-skull fs-lg-1 h3 mt-1 mb-4' ></i>
+                    </div>
+                    <div class="service-heading col-10 col-lg-12 text-start text-lg-center float-end light-300 mb-4">
+                        <h2 class="h3 pb-4">Innovación del inicio al final</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-lg-4 mb-3">
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="link-falso recent-work card  border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/nuestros-trabajos-vr-fede-jpg.jpg" alt="Card image">
+                        <div class="recent-work-vertical  fede-borde-hover-off card-img-overlay d-flex align-items-center justify-content-center">
+                            <div class="recent-work-content text-center mb-3 ml-3 text-dark">
+                                <h3 class="card-title regular-400">VR</h3>
+                                <p class="card-text regular-400">Realidad Virtual</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="link-falso recent-work card  border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/nuestros-trabajos-ar-fede.jpg" alt="Card image">
+                        <div class="recent-work-vertical  fede-borde-hover-off card-img-overlay d-flex align-items-center justify-content-center">
+                            <div class="recent-work-content text-center mb-3 ml-3 text-dark">
+                                <h3 class="card-title regular-400">AR</h3>
+                                <p class="card-text regular-400">Realidad Aumentada</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="link-falso recent-work card  border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/nuestros-trabajos-vfx-fede.jpg" alt="Card image">
+                        <div class="recent-work-vertical  fede-borde-hover-off card-img-overlay d-flex align-items-center justify-content-center">
+                            <div class="recent-work-content text-center mb-3 ml-3 text-dark">
+                                <h3 class="card-title regular-400">VFX</h3>
+                                <p class="card-text regular-400">Efectos visuales</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="link-falso recent-work card  border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/nuestros-trabajos-3d-fede.jpg" alt="Card image">
+                        <div class="recent-work-vertical  fede-borde-hover-off card-img-overlay d-flex align-items-center justify-content-center">
+                            <div class="recent-work-content text-center mb-3 ml-3 text-dark">
+                                <h3 class="card-title regular-400">3D</h3>
+                                <p class="card-text regular-400">Diseño, modelado, animación y render</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="link-falso recent-work card  border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/nuestros-trabajos-2d-fede.jpg" alt="Card image">
+                        <div class="recent-work-vertical  fede-borde-hover-off card-img-overlay d-flex align-items-center justify-content-center">
+                            <div class="recent-work-content text-center mb-3 ml-3 text-dark">
+                                <h3 class="card-title regular-400">2D</h3>
+                                <p class="card-text regular-400">Animación tradigital y cut-out</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="link-falso recent-work card  border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/nuestros-trabajos-mocap-fede.jpg" alt="Card image">
+                        <div class="recent-work-vertical  fede-borde-hover-off card-img-overlay d-flex align-items-center justify-content-center">
+                            <div class="recent-work-content text-center mb-3 ml-3 text-dark">
+                                <h3 class="card-title regular-400">Mocap</h3>
+                                <p class="card-text regular-400">Tracking en vivo para eventos y presentaciones</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Recent Work -->
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="link-falso recent-work card  border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/nuestros-trabajos-app-fede.jpg" alt="Card image">
+                        <div class="recent-work-vertical  fede-borde-hover-off card-img-overlay d-flex align-items-center justify-content-center">
+                            <div class="recent-work-content text-center mb-3 ml-3 text-dark">
+                                <h3 class="card-title regular-400">App</h3>
+                                <p class="card-text regular-400">Aplicaciones para dispositivos móviles</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Recent Work -->
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="link-falso recent-work card  border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/nuestros-trabajos-gamedesign-fede.jpg" alt="Card image">
+                        <div class="recent-work-vertical  fede-borde-hover-off card-img-overlay d-flex align-items-center justify-content-center">
+                            <div class="recent-work-content text-center mb-3 ml-3 text-dark">
+                                <h3 class="card-title regular-400">VJ</h3>
+                                <p class="card-text regular-400">Videojuegos y experiencias interactivas</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Recent Work -->
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="link-falso recent-work card  border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/nuestros-trabajos-3dprint.jpg" alt="Card image">
+                        <div class="recent-work-vertical  fede-borde-hover-off card-img-overlay d-flex align-items-center justify-content-center">
+                            <div class="recent-work-content text-center mb-3 ml-3 text-dark">
+                                <h3 class="card-title regular-400">3D-print</h3>
+                                <p class="card-text regular-400">Fotogrametría e impresion 3d</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Recent Work -->
+
+            </div>
+        </div>
+    </section>
+    <section class="bg-secondary servicios-fondo">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center align-items-center text-center px-5 my-5">
+                <div class="col-lg-2 col-12 text-light align-items-center">
+                    <i class='display-1 bx bx-line-chart bx-lg'></i>
+                </div>
+                <div class="col-lg-7 col-12 text-light pt-2">
+                    <h3 class="h2 light-300">Otra dimension de alcance</h3>
+                    <p class="h4 light-300">Infinitas posibilidades al alcance de tu mano.</p>
+                </div>
+                <div class="col-lg-3 col-12 pt-4">
+                    <div class="fede-clip fede-contenedor">
+                        <a class="btn fede-btn btn-lg px-4 fede-border-radius-0 fede-clip link-falso" role="button">Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-wrapper py-3">
+        <a href="" id="trabajos" class="fede-anchor"></a>
+        <div class="recent-work-header text-center pb-5">
+            <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Últimos trabajos</h2>
+        </div>
+
+        <div class="service-tag py-5 bg-secondary">
+            <div class="col-md-8 offset-md-2">
+                <ul class="nav d-flex justify-content-center">
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn active" data-filter=".project">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">Todos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".2d">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">2D</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".3d">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">3D</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".app">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">App</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".ar">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">AR</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".eventos">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">Eventos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".grafico">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">Grafico</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".motion">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">Motion</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".realizaciones">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">Realizaciones</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".videogame">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">Videogame</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".vr">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">VR</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-4 my-lg-2 col-6 col-md-2 text-align-center">
+                        <div class="w-100 fede-clip fede-contenedor filter-btn" data-filter=".web">
+                            <a class="btn fede-btn btn-lg px-4 py-2 fede-border-radius-0 fede-clip nav-link semi-bold-600 " href="#">Web</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="container overflow-hidden py-5">
+        <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
+
+            <div class="col-xl-3 col-md-4 col-sm-6 project ui branding ">
+                <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                    <img class="service card-img fede-border-radius-0" src="/assets/img/servicios-fede-01.jpg" alt="Card image">
+                    <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                        <div class="service-work-content text-center text-light">
+                            <div class="fede-clip fede-contenedor mb-lg-3">
+                                <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">UI/UX diseño</span>
+                            </div>
+                            <p class="card-text fw-normal">Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 project 2d app ar eventos grafico motion realizaciones">
+                <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                    <img class="service card-img fede-border-radius-0" src="/assets/img/fede-01.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                        <div class="service-work-content text-center text-light">
+                            <div class="fede-clip fede-contenedor mb-lg-3">
+                                <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Hipodromo</span>
+                            </div>
+                            <p class="card-text fw-normal">Stands y actividades con AR</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- FEDE -->
+        <div class="col-xl-3 col-md-4 col-sm-6 project app grafico web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-02.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Village Cines</span>
+                    </div>
+                    <p class="card-text fw-normal">App y diseño web</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d 3d animacion app videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-03.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">A night to remember</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño de entornos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d animacion grafico motion">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-04.png" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Strella Seguros</span>
+                    </div>
+                    <p class="card-text fw-normal">Publicidad para TV</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d realizaciones">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-05.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Masco-craft</span>
+                    </div>
+                    <p class="card-text fw-normal">Modelos de papel para armar</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d 3d animacion app videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-06.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Cyber-city</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño de entornos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d app eventos motion realizaciones">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-07.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Fondo mágico</span>
+                    </div>
+                    <p class="card-text fw-normal">Stand con chroma automatico</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d animacion motion realizaciones">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-08.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Fiesta cervecera</span>
+                    </div>
+                    <p class="card-text fw-normal">Publicidad en stop-motion</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d app eventos motion realizaciones vr">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-09.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Museo Social Argentino</span>
+                    </div>
+                    <p class="card-text fw-normal">Exposicion interactiva</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d 3d animacion app videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-10.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">School of Danger</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño de entornos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d animacion motion realizaciones">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-11.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Kodak</span>
+                    </div>
+                    <p class="card-text fw-normal">Publicidad - Papercraft</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project app grafico web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-12.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Agrupate</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño web y App</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d animacion grafico motion">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-13.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Subtract</span>
+                    </div>
+                    <p class="card-text fw-normal">Imagen corporativa</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d motion realizaciones">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-14.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Mostaza</span>
+                    </div>
+                    <p class="card-text fw-normal">Publicidad y diseño</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project app ar eventos grafico realizaciones vr">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-15.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Adidas </span>
+                    </div>
+                    <p class="card-text fw-normal">Evento lanzamiento</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d animacion app grafico motion web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-16.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">RocketSearch</span>
+                    </div>
+                    <p class="card-text fw-normal">App y diseño web</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d app eventos grafico motion realizaciones vr">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-17.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Westworld</span>
+                    </div>
+                    <p class="card-text fw-normal">Evento HBO</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d animacion grafico motion">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-18.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">OLD CAR</span>
+                    </div>
+                    <p class="card-text fw-normal">Publicidad web</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d animacion app grafico motion web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-19.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Venmo</span>
+                    </div>
+                    <p class="card-text fw-normal">App</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d animacion app ar motion videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-20.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Emotidog</span>
+                    </div>
+                    <p class="card-text fw-normal">Mascota Virtual</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d ar eventos grafico web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-21.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Fiesta Android </span>
+                    </div>
+                    <p class="card-text fw-normal">Evento corporativo</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d animacion grafico motion">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-22.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Kangareeta</span>
+                    </div>
+                    <p class="card-text fw-normal">Publicidades</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project ar grafico web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-23.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Accu-chek</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño web</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d animacion motion">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-24.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Amo el mate</span>
+                    </div>
+                    <p class="card-text fw-normal">Trabajo personal</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d app eventos motion realizaciones vr">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-25.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Colgate</span>
+                    </div>
+                    <p class="card-text fw-normal">Stand con VR</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project app grafico web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-26.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">FanClub</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño Web</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d 3d animacion app videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-28.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">NightFight</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño de entornos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d animacion app grafico videogame web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-29.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">rhythmPAL</span>
+                    </div>
+                    <p class="card-text fw-normal">App y diseño web</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d realizaciones">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-30.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Anim-craft</span>
+                    </div>
+                    <p class="card-text fw-normal">Modelos de papel para armar</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d realizaciones">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-31.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Succu-craft</span>
+                    </div>
+                    <p class="card-text fw-normal">Modelos de papel para armar</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d animacion grafico motion">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-32.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">SpaceWatch</span>
+                    </div>
+                    <p class="card-text fw-normal">Video explicativo</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d app ar">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-33.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Renders Arquitectura</span>
+                    </div>
+                    <p class="card-text fw-normal">Visualizacion de Proyectos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d 3d animacion app videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-34.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">NightFight 2</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño de entornos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project app grafico web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-35.png" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">My Services</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño web y App</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d animacion grafico motion">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-36.png" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Young People</span>
+                    </div>
+                    <p class="card-text fw-normal">Video explicativo</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d animacion grafico motion web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-37.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Little Kitty</span>
+                    </div>
+                    <p class="card-text fw-normal">Serie web infantil</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d animacion grafico motion web">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-38.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">F*** the pigs</span>
+                    </div>
+                    <p class="card-text fw-normal">Serie web para adultos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d animacion grafico motion">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-39.png" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">To the Moon</span>
+                    </div>
+                    <p class="card-text fw-normal">Video explicativo</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project eventos grafico realizaciones">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-40.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Museo Techno</span>
+                    </div>
+                    <p class="card-text fw-normal">Stand de evento</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d 3d animacion app videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-41.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">School of Danger 2</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño de entornos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d 3d animacion app videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-42.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">School of Danger 3</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño de entornos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 3d app eventos grafico realizaciones vr">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-43.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Fiesta Fernet</span>
+                    </div>
+                    <p class="card-text fw-normal">Stand de evento</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d 3d animacion app videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-44.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">Fields of dreams</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño de entornos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d 3d animacion app videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-45.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">West of Tokyo</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño de entornos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 project 2d 3d animacion app videogame">
+            <a href="#" class="service-work card link-falso fede-borde-hover-off text-light shadow-sm overflow-hidden mx-5 m-sm-0 ">
+                <img class="service card-img fede-border-radius-0" src="/assets/img/fede-46.jpg" alt="Card image"> <div class=" card-img-overlay  fede-border-radius-0 d-flex align-items-end justify-content-center">
+                <div class="service-work-content text-center text-light">
+                    <div class="fede-clip fede-contenedor mb-lg-3">
+                        <span class="btn fede-btn fede-border-radius-0 fede-clip px-lg-4 fw-bold link-falso">A night to remember 2</span>
+                    </div>
+                    <p class="card-text fw-normal">Diseño de entornos</p>
+                </div>
+        </div>
+        </a>
+        </div>
+
+
+        <!-- FEDE -->
+
+        </div>
+    </section>
+    <footer id="bottom" class="bg-secondary pt-4">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-lg-8 col-12 align-left">
+                    <a class="navbar-brand d-flex" href="#top">
+                        <i class='bx bxs-skull bx-sm text-light'></i>
+                        <span class="text-light h4">Pixel</span><span class="text-light h4 semi-bold-600">punk</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        Trabajo Práctico Obligatorio 1 <br>
+                        Codo a Codo - Front End 2021 <br>
+                        Comision 2103
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+
+                        <li class="list-inline-item m-0">
+                            <a class="link-falso text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook bx-md'></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item m-0">
+                            <a class="link-falso text-light" target="_blank" href="https://www.linkedin.com/">
+                                <i class='bx bxl-linkedin bx-md'></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item m-0">
+                            <a class="link-falso text-light" target="_blank" href="https://www.twitter.com/">
+                                <i class='bx bxl-twitter bx-md'></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item m-0">
+                            <a class="link-falso text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp bx-md'></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item m-0">
+                            <a class="link-falso text-light" target="_blank" href="https://www.flickr.com/">
+                                <i class='bx bxl-instagram bx-md'></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Navegación</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="#top">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#servicios">Servicios</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#trabajos">Trabajos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#bottom">Contáctanos</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Contacto:</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="link-falso text-decoration-none text-light py-1" href="tel:010-020-0340">021-2354-4568</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="link-falso text-decoration-none text-light py-1" href="mailto:info@company.com">info@company.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-dark py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 Pixelpunk. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light" 
+							href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack</strong></a> y <a rel="sponsored" class="link-falso  text-decoration-none text-light" href="https://cursophp.com.ar/" target="_blank"><strong>Federico Bergé</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <script src="/assets/js/fede.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function () {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function () {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
